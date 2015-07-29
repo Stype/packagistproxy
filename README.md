@@ -13,7 +13,7 @@ Once we're a MITM, we override a packagist's package definition with our own. It
 
 In this demo, the provider (re-)defines monolog/monolog. Not to pick on them as a project, but's it a popular one and in use by MediaWiki. The new definition points to my own version of monolog (https://github.com/Stype/monolog) for all versions of monolog currently defined (up to 1.15.0).
 
-If you want change the payload (you probably do), update monolog.json to point to the repository and commit of your choice. Then run
+If you want to change the payload (you probably do), update monolog.json to point to the repository and commit of your choice. Then run
 
 ```
 sha256sum monlog.json
